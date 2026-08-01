@@ -1,8 +1,26 @@
 aid: recursive-superintelligence
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/recursive-superintelligence.png
 name: Recursive Superintelligence
-description: Recursive Superintelligence is a company surfaced as a portfolio company of dcvc, gv, wing-venture-capital
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Recursive (Recursive Superintelligence) is an AI research company based in San Francisco and London
+  building recursive self-improving superintelligence to automate knowledge discovery. Its team of 25+
+  former OpenAI, DeepMind, Google Brain, and Meta researchers works on open-ended algorithms,
+  quality-diversity methods, self-improving coding agents, automated red teaming, AI-generating
+  algorithms, world models, vision transformers, and RAG systems, initially targeting the automation of
+  AI research before expanding to other scientific disciplines. As of this pass Recursive publishes no
+  public API, developer portal, or SDKs; this profile tracks the company's identity and web presence in
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/recursive-superintelligence/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- AI Research
+- Superintelligence
+- Self-Improving Agents
+- Frontier AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/recursive-superintelligence-domain-security.yml
 - type: Website
   url: https://www.recursive.com
+- type: TermsOfService
+  url: https://www.recursive.com/terms
+- type: PrivacyPolicy
+  url: https://www.recursive.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
